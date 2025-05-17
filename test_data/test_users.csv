@@ -1,0 +1,4 @@
+test_case,username,password,expected_result
+valid_login,standard_user,secret_sauce,success
+invalid_pass,standard_user,wrong_password,error
+invalid_user,invalid_user,secret_sauce,error

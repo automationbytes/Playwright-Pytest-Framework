@@ -1,0 +1,9 @@
+2025-05-16 23:10:47,874 - INFO : Browser: chrome, Headed mode: True
+2025-05-16 23:10:49,327 - INFO : Created new page in chrome browser
+2025-05-16 23:10:49,327 - INFO : ------------Pre Step-----------------
+2025-05-16 23:10:49,327 - INFO : ------------Set Viewport-----------------
+2025-05-16 23:10:49,365 - INFO : ------------URL Launch-----------------
+2025-05-16 23:10:50,537 - INFO : ------------Perform Login-----------------
+2025-05-16 23:10:52,238 - INFO : ------------Home Launch-----------------
+2025-05-16 23:10:52,249 - INFO : Closing browser context
+2025-05-16 23:10:52,305 - INFO : Closing browser instance

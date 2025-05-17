@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="4.799" timestamp="2025-05-16T23:10:47.809207" hostname="DESKTOP-IGM5GKP"><testcase classname="TestCases.test_demo.TestDemo" name="test_dropdown_high2low" time="4.724"><failure message="AttributeError: 'HomePage' object has no attribute 'logo'">self = &lt;TestCases.test_demo.TestDemo object at 0x00000186B2483C10&gt;, login = None
+
+    @allure.title("Verify Price Sorting from High to Low")
+    @allure.description("Test validation of price sorting functionality")
+    def test_dropdown_high2low(self, login):
+        """Test case for price sorting validation"""
+        self.logger.info("------------Home Launch-----------------")
+        hp = HomePage(self.page)
+    
+        with allure.step("Verify application logo"):
+            try:
+                # Use Playwright's built-in assertions
+&gt;               expect(hp.logo).to_be_visible()
+E               AttributeError: 'HomePage' object has no attribute 'logo'
+
+TestCases\test_demo.py:141: AttributeError</failure></testcase></testsuite></testsuites>

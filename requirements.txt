@@ -1,0 +1,20 @@
+# Core dependencies
+playwright
+pytest
+
+# Playwright test runner integration
+pytest-playwright
+
+# Parallel execution
+pytest-xdist
+
+# Reporting
+pytest-html
+allure-pytest
+pytest-junit2html
+
+#Env Handling
+python-dotenv
+
+# Data handling
+pandas
