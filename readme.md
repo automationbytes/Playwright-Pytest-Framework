@@ -1,4 +1,4 @@
-# Pytest Page Object Model (POM) Automation Framework
+# Playwright Pytest Page Object Model (POM) Automation Framework
 
 A test automation framework implementing Page Object Model using Pytest and Playwright.
 
